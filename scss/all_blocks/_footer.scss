@@ -1,0 +1,142 @@
+.footer {
+  background-color: #495567;
+}
+
+.footer__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 102px;
+  padding-bottom: 102px;
+  position: relative;
+  padding-right: 165px;
+  padding-left: 160px;
+}
+
+.footer__top::before {
+  content: "";
+  position: absolute;
+  width: 1190px;
+  height: 150px;
+  top: 230px;
+  left: 342px;
+  background-image: url("../images/sircle.png");
+}
+
+.footer__header {
+  width: 415px;
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: #FFFFFF;  
+}
+
+.download {
+  width: 360px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 165px;
+  padding-right: 160px;
+}
+
+.download__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 159px;
+  height: 56px;
+  background-color: #E5ECF4;
+  border-radius: 4px;
+  margin-left: 40px;
+  padding: 15px 20px;
+}
+
+.download__texts {
+  padding-top: 8px;
+  padding-bottom: 9px;
+}
+
+.download__text-1 {
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 15px;
+  letter-spacing: -0.446429px;
+  color: #495567; 
+  margin: 0;
+}
+
+.download__text-2 {
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.892857px;
+  color: #495567;
+  margin: 0;
+}
+
+.footer__wrapper {
+  width: 100%;
+  background-color: #333A44;
+}
+
+.footer__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 0;
+  padding-right: 165px;
+  padding-left: 160px;
+}
+
+.footer__bottom-wrapper {
+  width: 940px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__bottom-list-1 {
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
+.footer__bottom-item-1 {
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939CAA;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.footer__bottom-item-1:hover {
+  color: #FCB72B;
+}
+
+.footer__bottom-list-2 {
+  width: 120px;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.footer__bottom-item-2-img {
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.footer__bottom-item-2-img:hover path {
+  fill: #E5ECF4;
+}

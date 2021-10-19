@@ -1,0 +1,152 @@
+.learn-more__container {
+  margin-bottom: 18px;
+}
+
+.learn-more {
+
+  margin-top: 226px;
+  margin-left: 150px;
+
+
+  &__item {
+    width: 100%;
+    max-width: 1010px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 160px;
+  }
+
+  &__item:nth-child(2n) &__item-wrapper {
+    order: 1;
+  }
+
+  &__item-wrapper {
+    position: relative;
+    width: 445px;
+  }
+
+  &__item-header {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14286px;
+    color: #495567;
+    margin-bottom: 24px;
+  }
+
+  &__item-text {
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    color: #939CAA;
+    margin-bottom: 40px;
+  }
+
+  &__item-wrapper-1::before {
+    content: "";
+    display: inline-block;
+    width: 940px;
+    height: 150px;
+    position: absolute;
+    top: 240px;
+    left: 535px;
+    background-image: url("../../images/Group\ \(1\).png")
+  }
+
+  &__item-wrapper-2::before {
+    content: "";
+    display: inline-block;
+    width: 360px;
+    height: 150px;
+    position: absolute;
+    top: -50px;
+    left: -830px;
+    background-image: url("../../images/mini-strock.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  &__item-wrapper-3::before {
+    content: "";
+    display: inline-block;
+    width: 360px;
+    height: 150px;
+    position: absolute;
+    top: 30px;
+    left: 920px;
+    background-image: url("../../images/mini-strock-2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  &__item-img {
+    border-radius: 50%;
+  }
+}
+
+&__button {
+  width: 185px;
+  height: 53px;
+  background: #FCB72B;
+  border: none;
+  transition: 0.5s ease;
+
+  &:hover {
+    border: 2px solid #FCB72B;
+    background: transparent;
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+  & .container {
+    padding: 0;
+  }
+
+  .learn-more {
+
+
+
+    &__item {
+      max-width: 445px;
+      flex-direction: column;
+      margin-bottom: 160px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+    }
+
+    &__item .about__item-wrapper {
+      order: 1;
+    }
+
+    &__item-header {
+      margin-bottom: 40px;
+    }
+
+    &__item-wrapper-1::before {
+      top: -140px;
+      left: -140px;
+    }
+
+    .about__item-wrapper-2::before {
+      top: -430px;
+      left: -180px;
+    }
+
+    .about__item-wrapper-3::before {
+      top: -360px;
+      left: 246px;
+    }
+
+    .about__item-wrapper .button {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
